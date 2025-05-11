@@ -1,7 +1,7 @@
 # DesignPatterns_LabVIEW
 Sample code of design patterns realized in LabVIEW
 
-# Factory method
+# Factory method - Class Diagram
 ```mermaid
 classDiagram
     direction TB
