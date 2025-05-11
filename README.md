@@ -4,7 +4,7 @@ Sample code of design patterns realized in LabVIEW
 # Factory method
 ```mermaid
 classDiagram
-    direction LR
+    direction TB
 
     class IDeviceConnection {
     <<interface>>
