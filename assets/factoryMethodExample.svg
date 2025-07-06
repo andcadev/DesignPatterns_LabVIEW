@@ -6,25 +6,9 @@
 <!-- Title: OvenUML Pages: 1 -->
 <svg width="758pt" height="257pt"
  viewBox="0.00 0.00 757.88 257.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <style>
-    @media (prefers-color-scheme: dark) {
-      text       { fill: white !important; }
-      ellipse    { fill: #222 !important; stroke: white !important; }
-      polygon    { fill: #222 !important; stroke: white !important; }
-      path       { stroke: white !important; }
-    }
-
-    @media (prefers-color-scheme: light) {
-      text       { fill: black !important; }
-      ellipse    { fill: white !important; stroke: black !important; }
-      polygon    { fill: white !important; stroke: black !important; }
-      path       { stroke: black !important; }
-    }
-  </style>
-</defs>
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 253)">
 <title>OvenUML</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-253 753.88,-253 753.88,4 -4,4"/>
 <!-- IDeviceConnection -->
 <g id="node1" class="node">
 <title>IDeviceConnection</title>
