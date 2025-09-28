@@ -11,6 +11,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AbstractFactory" Type="Folder">
+			<Item Name="ProductA - Connections" Type="Folder">
+				<Item Name="IConnection.lvclass" Type="LVClass" URL="../AbstractFactory/IConnection/IConnection.lvclass"/>
+			</Item>
+			<Item Name="ProductB - CommandBuilders" Type="Folder">
+				<Item Name="ICommandBuilder.lvclass" Type="LVClass" URL="../AbstractFactory/ICommandBuilder/ICommandBuilder.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="FactoryMethod" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="_main_factoryMethod.vi" Type="VI" URL="../FactoryMethod/_main_factoryMethod.vi"/>
