@@ -18,6 +18,9 @@
 			<Item Name="ProductB - CommandBuilders" Type="Folder">
 				<Item Name="ICommandBuilder.lvclass" Type="LVClass" URL="../AbstractFactory/ICommandBuilder/ICommandBuilder.lvclass"/>
 			</Item>
+			<Item Name="ProductC - ResponseParsers" Type="Folder">
+				<Item Name="IResponseParser.lvclass" Type="LVClass" URL="../AbstractFactory/IResponseParser/IResponseParser.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="FactoryMethod" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
