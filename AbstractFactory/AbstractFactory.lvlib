@@ -14,5 +14,7 @@
 	</Item>
 	<Item Name="ProductC - ResponseParsers" Type="Folder">
 		<Item Name="IResponseParser.lvclass" Type="LVClass" URL="../IResponseParser/IResponseParser.lvclass"/>
+		<Item Name="PlainTextResponseParser.lvclass" Type="LVClass" URL="../PlainTextResponseParser/PlainTextResponseParser.lvclass"/>
+		<Item Name="XMLResponseParser.lvclass" Type="LVClass" URL="../XMLResponseParser/XMLResponseParser.lvclass"/>
 	</Item>
 </Library>
