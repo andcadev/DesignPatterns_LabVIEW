@@ -4,6 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Factories" Type="Folder">
+		<Item Name="IOvenFactory.lvclass" Type="LVClass" URL="../IOvenFactory/IOvenFactory.lvclass"/>
+		<Item Name="LegacyOvenFactory.lvclass" Type="LVClass" URL="../LegacyOvenFactory/LegacyOvenFactory.lvclass"/>
+		<Item Name="ModernOvenFactory.lvclass" Type="LVClass" URL="../ModernOvenFactory/ModernOvenFactory.lvclass"/>
+	</Item>
 	<Item Name="ProductA - Connections" Type="Folder">
 		<Item Name="IConnection.lvclass" Type="LVClass" URL="../IConnection/IConnection.lvclass"/>
 		<Item Name="SerialConnection.lvclass" Type="LVClass" URL="../SerialConnection/SerialConnection.lvclass"/>
@@ -11,10 +17,14 @@
 	</Item>
 	<Item Name="ProductB - CommandBuilders" Type="Folder">
 		<Item Name="ICommandBuilder.lvclass" Type="LVClass" URL="../ICommandBuilder/ICommandBuilder.lvclass"/>
+		<Item Name="PlainTextCommandBuilder.lvclass" Type="LVClass" URL="../PlainTextCommandBuilder/PlainTextCommandBuilder.lvclass"/>
+		<Item Name="XMLCommandBuilder.lvclass" Type="LVClass" URL="../XMLCommandBuilder/XMLCommandBuilder.lvclass"/>
 	</Item>
 	<Item Name="ProductC - ResponseParsers" Type="Folder">
 		<Item Name="IResponseParser.lvclass" Type="LVClass" URL="../IResponseParser/IResponseParser.lvclass"/>
 		<Item Name="PlainTextResponseParser.lvclass" Type="LVClass" URL="../PlainTextResponseParser/PlainTextResponseParser.lvclass"/>
 		<Item Name="XMLResponseParser.lvclass" Type="LVClass" URL="../XMLResponseParser/XMLResponseParser.lvclass"/>
 	</Item>
+	<Item Name="_main_abstractFactory.vi" Type="VI" URL="../_main_abstractFactory.vi"/>
+	<Item Name="OvenController.lvclass" Type="LVClass" URL="../OvenController/OvenController.lvclass"/>
 </Library>
